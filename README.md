@@ -28,6 +28,7 @@
 我将提供一个完整的项目源代码（你可以根据我提供的项目自动转换自动识别哈，有可能是c++项目也有可能是docker等等那些项目）。你的任务是：
 将我的项目完整、无损地迁移、转换为MCP工具，下面我会给出一些案例你方可查看，我是直接放在GitHub仓库上的，接着呢通过studio等等那样的调用，具体你可以看我下方提供的项目来自动学习自动深度了解一下我主要是怎样做的？
 示例项目：
+index.js文件：
 #!/usr/bin/env node
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
@@ -98,6 +99,7 @@ async function run() {
 
 run().catch(console.error);
 
+package.json文件：
 {
   "name": "perfect-assistant-mcp",
   "version": "1.0.0",
@@ -109,7 +111,7 @@ run().catch(console.error);
     "@modelcontextprotocol/sdk": "^1.0.1"
   }
 }
-
+看来这个项目就用了两个文件轻松解决
 
 其中这个项目name等等你可以根据我下面提供的源项目来帮我进行自动分析自动命令给我，并且注释也要中文化哈，还有就是工具名称提示词啊资源啊等等那些都要中文化汉化，这样能极大帮助一些中文爱好者来更容易了解项目
 下方是我需要转换的项目完整代码：
