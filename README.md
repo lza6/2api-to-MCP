@@ -1,0 +1,2 @@
+# 2api-to-MCP
+这是一个可以把你2API项目（不管是docker还是cfwork等等工作流代码）来一键通过AI发送转成GitHub仓库的MCP工具，也就是你只需要按照AI说的那样去你的仓库创建对应的文件，接着用这个json快速导入你的MCP就完工了
